@@ -9,17 +9,12 @@
 
 int main(void)
 {
-	int x;
+	int num;
 
-	for (x=48; x < 58; x++)
-	{
-		putchar(x);
-		if (x < 57)
-		{
-			putchar(44);
-			putchar(32);
-		}
-	}
-	putchar('\n');
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
 	return (0);
 }
