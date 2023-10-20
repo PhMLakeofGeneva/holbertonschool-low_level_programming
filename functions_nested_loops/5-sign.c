@@ -1,32 +1,27 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the positive or negative sign of the argument
- * Return:	(1) if @c is a positive number
- * 		(0) if @c is zero
- * 		(-1) if @c is a negative number
+ * print_sign - entry point
+ * @c: character
+ * Description: return 1 if c is in lower case
+ * Return: 1 or 0
  */
-
 int print_sign(int c)
 {
-	if (c ==0)
+	if (c > 0)
+	{
+		_putchar('+');
+			return (1);
+	}
+	else if (c == 0)
 	{
 		_putchar('0');
 		return (0);
-	}
-	else if (c > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	else
-	{
-		_putchar('+');
-		return (1);
-	}
-	else
+			}
+	else if (c < 0)
 	{
 		_putchar('-');
-		return (1);
-		}
+		return (-1);
+	}
+	return (0);
 }
