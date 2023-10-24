@@ -1,29 +1,19 @@
 #include "main.h"
 /**
  *print_rev - print string in reverse
- *@str: string pointer
- *Return: counter
+ *@s: The string to print
+ *Return: void
  */
 int print_rev(char *str)
 {
-	char *z = str;
-	int i;
-	int count1 = 0;
-	int count = 0;
-
-	while (*str != '\0')
+	int c = 0;
+	while (s[c] != '\0')
 	{
-		str++;
-		count1++;
+	c++;
 	}
-
-	i = count1 - 1;
-	while (i >= 0)
+	for (c -= 1; c>= 0; c--)
 	{
-		_putchar(*(z + i));
-		i--;
-		count++;
+	_putchar(s[c]);
 	}
-
-	return (count);
+	_putchar('\n');
 }
