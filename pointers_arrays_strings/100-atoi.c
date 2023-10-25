@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * int _atoi - Print a function that converts a string to an integer.
+ * _atoi - Print a function that converts a string to an integer.
  * @s: char array string
  * Description: Number in the string can be preceded by an infinite
  * number of characters.
