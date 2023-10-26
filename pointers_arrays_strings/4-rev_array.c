@@ -3,8 +3,6 @@
  * reverse_array - revereses an array.
  * @a: pointer to array.
  * number of elements of an array.
- *
- * Return: void.
  */
 
 void reverse_array(int *a, int n)
