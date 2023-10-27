@@ -4,7 +4,7 @@
  *  @s: string with words to capitalisze
  *  Return: pointer ti resulting string
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	char *r = s;
 	int i;
@@ -18,7 +18,7 @@ char *cap_string(char *)
 		cap = 0;
 		for (i = 0; i < 12; i++)
 		{
-			if (+s == a[i])
+			if (*s == a[i])
 				cap = 1;
 		}
 		s++;
