@@ -42,4 +42,3 @@ static listint_t *new_node(const int n)
 	new->next = NULL;
 	return (new);
 }
-
