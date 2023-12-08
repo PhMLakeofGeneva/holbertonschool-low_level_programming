@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Copies content of file to another
@@ -52,5 +53,6 @@ int main(int argc, char **argv)
 
 	return (0);
 }
+
 
 
